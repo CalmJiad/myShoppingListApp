@@ -16,6 +16,7 @@ body{
 
 @media only screen and (max-width: 600px) {
     h1 {
+        padding-top: 30px;
         font-size: 3.5em !important;
     }
 
@@ -26,6 +27,20 @@ body{
 
     .list {
         font-size: 1.3em !important;
+        width: 90vw !important;
+    }
+    .rmvallbtn {
+        display: block;
+        margin: auto;
+    }
+    .button {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    footer {
+        font-size: 0.8em;
     }
 }
 
