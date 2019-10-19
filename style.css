@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lateef&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background:#d8c3a5;
+    color: #e85a4f ;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3.5em !important;
+    }
+
+    h3 {
+        font-size: 1.7em !important;
+        margin-bottom: 2em;
+    }
+
+    .list {
+        font-size: 1.3em !important;
+    }
+}
+
+.stylish{
+    width: 295px;
+    margin-left: 0;
+    margin-right: 10px;
+    padding: 0.6rem 1rem;
+    border: 0px none transparent;
+    border-bottom:3px solid #e85a4f;
+    outline: none;
+    background-color:#eae7dc;
+    font-size: 1rem;
+  }
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    margin: 0;
+    margin-top: 5px;
+    font-size: 5em;
+}
+
+h3 {
+    margin-top: 0;
+    font-family: 'Lateef', cursive;
+    font-size: 2.5em;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    background-color: #eae7dc;
+    padding: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 400px;
+    border: none;
+    border-radius: 5.5% 0 6% 0;
+    text-align: left;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+
+.list ul {
+    padding: 0px;
+    list-style: none;
+    margin: 0;
+}
+
+.list ul li {
+    margin: 15px 0 15px 0;
+    padding-left: 3px;
+    background-color: #248d71;
+    color: white;
+    letter-spacing: 0.04em;
+}
+
+.button {
+    width: 55px;
+    border:0;
+    border-radius: 15% 10%;
+    outline:none;
+    padding: 8px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing:.1em;
+    background: #1ab188;;
+    color: white;
+    transition: all.5s ease;
+    -webkit-appearance: none;
+  }
+
+  .button:hover {
+    background: #e85a4f;
+    cursor: pointer;
+  }
+
+  .done {
+      text-decoration: line-through;
+  }
+
+  .rmvallbtn {
+        border: none;
+        display: block;
+        margin: auto;
+        width: 100px;
+        border:0;
+        border-radius: 3.9px;
+        outline:none;
+        padding: 8px 0;
+        font-size: 0.9rem;
+        font-weight: bold;
+        letter-spacing: .01em;
+        background: #1ab188;;
+        color: white;
+        transition: all.5s ease;
+        -webkit-appearance: none;
+  }
+
+  .rmvallbtn:hover {
+    background: #e85a4f;
+    cursor: pointer;
+  }
+
+
+  footer {
+      color: rgb(114, 76, 46);
+      margin-top: 2rem;
+      line-height: 0.7rem;
+      letter-spacing: 0.1rem;
+  }
+
+  .icon {
+      padding-top: 4px;
+      float: right;
+  }
